@@ -1746,6 +1746,7 @@ function LogsPageContent() {
                     </div>
                     <Input
                       type="datetime-local"
+                      lang="en-US"
                       className="glass-card h-10 rounded-xl px-3"
                       value={startTimeInput}
                       onChange={(event) => {
@@ -1761,6 +1762,7 @@ function LogsPageContent() {
                     </div>
                     <Input
                       type="datetime-local"
+                      lang="en-US"
                       className="glass-card h-10 rounded-xl px-3"
                       value={endTimeInput}
                       onChange={(event) => {
